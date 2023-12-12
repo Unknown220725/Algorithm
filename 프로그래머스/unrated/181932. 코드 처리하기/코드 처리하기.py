@@ -7,14 +7,14 @@ def solution(code):
             if code[i] == '1':
                 mode = 1
             
-            elif i%2==0 and code[i]!=1:
+            elif i%2==0:
                 ret += code[i]
             
-        elif mode == 1 :
+        else :
             if code[i]== '1':
                 mode = 0
             
-            elif i%2==1 and code[i]!=1:
+            elif i%2==1:
                 ret += code[i]
        
     if(ret==""):
