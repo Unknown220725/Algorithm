@@ -4,9 +4,9 @@ def solution(a, b, c):
     print(a!=b and a!=c and b!=c)
     print(a!=b!=c)
     
-    if (a!=b and a!=c and b!=c):    
+    #if (a!=b and a!=c and b!=c):    
     #if (a!=b)!=c:
-    #if (a!=b!=c):
+    if (a!=b!=c!=a):
         print(a,b,c)
         answer = a+b+c
     
