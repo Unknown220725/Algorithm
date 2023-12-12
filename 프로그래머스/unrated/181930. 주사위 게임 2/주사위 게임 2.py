@@ -1,11 +1,14 @@
 def solution(a, b, c):
     answer = 0
     
-    if (a!=b and a!=c and b!=c):
+    print(a!=b and a!=c and b!=c)
+    print(a!=b!=c)
+    
+    if (a!=b and a!=c and b!=c):    
+    #if (a!=b)!=c:
+    #if (a!=b!=c):
         print(a,b,c)
         answer = a+b+c
-    
-    #elif(a == b and b != c) or (a != b and b == c) or (a != c and c == b):
     
     elif (a==b and a==c and b==c):
         print(a,b,c)
