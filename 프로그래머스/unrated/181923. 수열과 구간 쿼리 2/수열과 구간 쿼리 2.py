@@ -4,7 +4,8 @@ def solution(arr, queries):
     #쿼리즈 길이만큼 반복 3회
     for j in range(len(queries)):
         query = []
-        
+
+        #for i in range(len(arr[queries[j][0]:queries[j][1]+1])): 9점 원인 2시간 소요...
         #arr 슬라이싱 queries[0]~[1]까지 0,4+1
         for i in range(queries[j][0],queries[j][1]+1):
             if arr[i] > queries[j][2]:
